@@ -1,0 +1,912 @@
+Archive member included because of file (symbol)
+
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                              c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o (exit)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                              functions.o (__do_copy_data)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                              ADF7020.o (__do_clear_bss)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+                              GlobalVariables.o (__do_global_ctors)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+                              GlobalVariables.o (__do_global_dtors)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+                              c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o) (__tablejump__)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+                              functions.o (__eerd_byte_m32a)
+c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+                              functions.o (__eeupd_byte_m32a)
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+ .text          0x00000000        0x0 ADF7020.o
+ .bss           0x00000000        0x0 ADF7020.o
+ .text._ZN7ADF702012Set_RegisterEm
+                0x00000000       0x4a ADF7020.o
+ .text._ZN7ADF702017ADF_Program_CheckEv
+                0x00000000      0x33c ADF7020.o
+ .text._ZN7ADF702010receiveBitEv
+                0x00000000       0x34 ADF7020.o
+ .text          0x00000000        0x0 FIFO.o
+ .bss           0x00000000        0x0 FIFO.o
+ .text._ZN4FIFO17getFifoFreeLengthEv
+                0x00000000       0x48 FIFO.o
+ .text          0x00000000        0x0 functions.o
+ .bss           0x00000000        0x0 functions.o
+ .text._Z14sendNackSignalv
+                0x00000000       0x98 functions.o
+ .text          0x00000000        0x0 GlobalVariables.o
+ .bss           0x00000000        0x0 GlobalVariables.o
+ .bss.ltrTurnOnFlag
+                0x00000000        0x1 GlobalVariables.o
+ .bss.test_index
+                0x00000000        0x2 GlobalVariables.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .bss.commandPacket
+                0x00000000       0x43 main.o
+ .bss.command   0x00000000       0x43 main.o
+ .text          0x00000000        0x0 Message.o
+ .bss           0x00000000        0x0 Message.o
+ .text._ZN7Message28constructBaseGetStatusPacketEv
+                0x00000000       0x2c Message.o
+ .text._ZN7Message23sendBaseGetStatusPacketEv
+                0x00000000       0x38 Message.o
+ .text          0x00000000        0x0 Packet.o
+ .bss           0x00000000        0x0 Packet.o
+ .text._ZN6Packet16isHeaderDetectedEPc
+                0x00000000       0x12 Packet.o
+ .text._ZN6Packet13calculatedCRCEPci
+                0x00000000       0x2c Packet.o
+ .text          0x00000000        0x0 Serial.o
+ .bss           0x00000000        0x0 Serial.o
+ .text._ZN6Serial8put16BitEi
+                0x00000000        0xe Serial.o
+ .text._ZN6Serial7getCharEv
+                0x00000000        0x8 Serial.o
+ .text._ZN6Serial6putStrEPKc
+                0x00000000       0x18 Serial.o
+ .text._ZN6Serial10sendPacketEPci
+                0x00000000       0x1c Serial.o
+ .text          0x00000000        0x0 StationInfo.o
+ .bss           0x00000000        0x0 StationInfo.o
+ .text          0x00000000        0x0 Transceiver.o
+ .bss           0x00000000        0x0 Transceiver.o
+ .text._ZN11Transceiver17ADF_Program_CheckEv
+                0x00000000        0x6 Transceiver.o
+ .text._ZN11Transceiver14receiveInt1ISREv
+                0x00000000       0x56 Transceiver.o
+ .text._ZN11Transceiver14receiveInt2ISREv
+                0x00000000        0x6 Transceiver.o
+ .text._ZN11Transceiver16transmitTimerISREv
+                0x00000000       0xb8 Transceiver.o
+ .text._ZN11Transceiver8sendByteEc
+                0x00000000        0x6 Transceiver.o
+ .text._ZN11Transceiver18isTransmitterReadyEv
+                0x00000000        0x6 Transceiver.o
+ .text._ZN11Transceiver9clearFifoEv
+                0x00000000        0x6 Transceiver.o
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc   0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+ .text          0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+ .bss           0x00000000        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+LOAD ADF7020.o
+LOAD FIFO.o
+LOAD functions.o
+LOAD GlobalVariables.o
+LOAD main.o
+LOAD Message.o
+LOAD Packet.o
+LOAD Serial.o
+LOAD StationInfo.o
+LOAD Transceiver.o
+START GROUP
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x201c
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000054        0x2 GlobalVariables.o
+                0x00000056                __ctors_end = .
+                0x00000056                __dtors_start = .
+ *(.dtors)
+ .dtors         0x00000056        0x2 GlobalVariables.o
+                0x00000058                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000058        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+                0x00000058                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000058        0xc c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000064       0x16 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                0x00000064                __do_copy_data
+ .init4         0x0000007a       0x10 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000007a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000008a       0x16 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+                0x0000008a                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000a0        0x8 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a8        0x4 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+                0x000000a8                __vector_1
+                0x000000a8                __vector_12
+                0x000000a8                __bad_interrupt
+                0x000000a8                __vector_6
+                0x000000a8                __vector_11
+                0x000000a8                __vector_13
+                0x000000a8                __vector_17
+                0x000000a8                __vector_19
+                0x000000a8                __vector_5
+                0x000000a8                __vector_4
+                0x000000a8                __vector_9
+                0x000000a8                __vector_15
+                0x000000a8                __vector_8
+                0x000000a8                __vector_14
+                0x000000a8                __vector_10
+                0x000000a8                __vector_16
+                0x000000a8                __vector_18
+                0x000000a8                __vector_20
+                0x000000ac                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN7ADF7020C2Ev
+                0x000000ac       0x18 ADF7020.o
+                0x000000ac                _ZN7ADF7020C2Ev
+                0x000000ac                _ZN7ADF7020C1Ev
+ .text._ZN7ADF7020D2Ev
+                0x000000c4        0x2 ADF7020.o
+                0x000000c4                _ZN7ADF7020D1Ev
+                0x000000c4                _ZN7ADF7020D2Ev
+ .text._ZN7ADF702018adf7020_InitializeEv
+                0x000000c6      0x5c8 ADF7020.o
+                0x000000c6                _ZN7ADF702018adf7020_InitializeEv
+ .text._ZN7ADF702011adfReadbackEc
+                0x0000068e      0x43c ADF7020.o
+                0x0000068e                _ZN7ADF702011adfReadbackEc
+ .text._ZN7ADF70207setModeE14TranceiverMode
+                0x00000aca       0x36 ADF7020.o
+                0x00000aca                _ZN7ADF70207setModeE14TranceiverMode
+ .text._ZN7ADF702014receiveInt1ISREv
+                0x00000b00       0x3a ADF7020.o
+                0x00000b00                _ZN7ADF702014receiveInt1ISREv
+ .text._ZN7ADF702014receiveInt2ISREv
+                0x00000b3a        0xe ADF7020.o
+                0x00000b3a                _ZN7ADF702014receiveInt2ISREv
+ .text._ZN7ADF702016transmitTimerISREv
+                0x00000b48       0x52 ADF7020.o
+                0x00000b48                _ZN7ADF702016transmitTimerISREv
+ .text._ZN7ADF70208sendByteEc
+                0x00000b9a        0x8 ADF7020.o
+                0x00000b9a                _ZN7ADF70208sendByteEc
+ .text._ZN7ADF702018isTransmitterReadyEv
+                0x00000ba2        0x6 ADF7020.o
+                0x00000ba2                _ZN7ADF702018isTransmitterReadyEv
+ .text._ZN7ADF702011receiveByteEv
+                0x00000ba8        0x8 ADF7020.o
+                0x00000ba8                _ZN7ADF702011receiveByteEv
+ .text._ZN7ADF702018isNewDataAvailableEv
+                0x00000bb0       0x10 ADF7020.o
+                0x00000bb0                _ZN7ADF702018isNewDataAvailableEv
+ .text._ZN7ADF702010isReceiverEv
+                0x00000bc0        0xc ADF7020.o
+                0x00000bc0                _ZN7ADF702010isReceiverEv
+ .text._ZN7ADF702020clearPreaambleDetectEv
+                0x00000bcc        0x6 ADF7020.o
+                0x00000bcc                _ZN7ADF702020clearPreaambleDetectEv
+ .text._ZN7ADF702018adf7020_ChangeModeE14TranceiverMode
+                0x00000bd2      0x182 ADF7020.o
+                0x00000bd2                _ZN7ADF702018adf7020_ChangeModeE14TranceiverMode
+ .text._ZN7ADF702018isPreambleDetectedEv
+                0x00000d54        0x6 ADF7020.o
+                0x00000d54                _ZN7ADF702018isPreambleDetectedEv
+ .text._ZN7ADF702013changeRfPowerE12RFPowerState
+                0x00000d5a      0x186 ADF7020.o
+                0x00000d5a                _ZN7ADF702013changeRfPowerE12RFPowerState
+ .text._ZN7ADF702013calculateRSSIEj
+                0x00000ee0       0x80 ADF7020.o
+                0x00000ee0                _ZN7ADF702013calculateRSSIEj
+ .text._ZN4FIFOC2Ev
+                0x00000f60       0x16 FIFO.o
+                0x00000f60                _ZN4FIFOC2Ev
+                0x00000f60                _ZN4FIFOC1Ev
+ .text._ZN4FIFOD2Ev
+                0x00000f76        0x2 FIFO.o
+                0x00000f76                _ZN4FIFOD1Ev
+                0x00000f76                _ZN4FIFOD2Ev
+ .text._ZN4FIFO8readByteERc
+                0x00000f78       0x96 FIFO.o
+                0x00000f78                _ZN4FIFO8readByteERc
+ .text._ZN4FIFO9writeByteEc
+                0x0000100e       0x28 FIFO.o
+                0x0000100e                _ZN4FIFO9writeByteEc
+ .text._ZN4FIFO10readStringEPci
+                0x00001036       0xcc FIFO.o
+                0x00001036                _ZN4FIFO10readStringEPci
+ .text._ZN4FIFO11writeStringEPci
+                0x00001102       0x52 FIFO.o
+                0x00001102                _ZN4FIFO11writeStringEPci
+ .text._ZN4FIFO17getFifoFullLengthEv
+                0x00001154       0x54 FIFO.o
+                0x00001154                _ZN4FIFO17getFifoFullLengthEv
+ .text._ZN4FIFO9clearFifoEv
+                0x000011a8       0x16 FIFO.o
+                0x000011a8                _ZN4FIFO9clearFifoEv
+ .text._Z16micro_Initializev
+                0x000011be       0x4a functions.o
+                0x000011be                _Z16micro_Initializev
+ .text._Z9ToggleLEDc
+                0x00001208       0x5c functions.o
+                0x00001208                _Z9ToggleLEDc
+ .text._Z6setLEDc
+                0x00001264       0x2a functions.o
+                0x00001264                _Z6setLEDc
+ .text._Z8resetLEDc
+                0x0000128e       0x2a functions.o
+                0x0000128e                _Z8resetLEDc
+ .text._Z6loadBSv
+                0x000012b8      0x13a functions.o
+                0x000012b8                _Z6loadBSv
+ .text._Z17setGlobalIntrruptv
+                0x000013f2        0xa functions.o
+                0x000013f2                _Z17setGlobalIntrruptv
+ .text._Z19resetGlobalIntrruptv
+                0x000013fc        0x8 functions.o
+                0x000013fc                _Z19resetGlobalIntrruptv
+ .text._Z25resetAndStoreIntrruptFlagv
+                0x00001404        0xc functions.o
+                0x00001404                _Z25resetAndStoreIntrruptFlagv
+ .text._Z15restoreIntrruptc
+                0x00001410       0x16 functions.o
+                0x00001410                _Z15restoreIntrruptc
+ .text._Z26processSerialReceivedBytesv
+                0x00001426       0xfa functions.o
+                0x00001426                _Z26processSerialReceivedBytesv
+ .text._Z13sendAckSignalv
+                0x00001520       0xa4 functions.o
+                0x00001520                _Z13sendAckSignalv
+ .text._Z19receivedDataProcessPci
+                0x000015c4      0x310 functions.o
+                0x000015c4                _Z19receivedDataProcessPci
+ .text._Z41__static_initialization_and_destruction_0ii.part.0
+                0x000018d4       0x28 GlobalVariables.o
+ .text.startup._GLOBAL__sub_I_serial
+                0x000018fc       0x28 GlobalVariables.o
+ .text.exit._GLOBAL__sub_D_serial
+                0x00001924        0x4 GlobalVariables.o
+ .text.startup.main
+                0x00001928      0x1c8 main.o
+                0x00001928                main
+ .text._ZN6PacketC2Ev
+                0x00001af0       0x14 Packet.o
+                0x00001af0                _ZN6PacketC2Ev
+                0x00001af0                _ZN6PacketC1Ev
+ .text._ZN6PacketD2Ev
+                0x00001b04        0x2 Packet.o
+                0x00001b04                _ZN6PacketD2Ev
+                0x00001b04                _ZN6PacketD1Ev
+ .text._ZN6Packet12createPacketEPciS0_
+                0x00001b06       0xd8 Packet.o
+                0x00001b06                _ZN6Packet12createPacketEPciS0_
+ .text._ZN6Packet11extractDataEPcRi
+                0x00001bde       0x9a Packet.o
+                0x00001bde                _ZN6Packet11extractDataEPcRi
+ .text._ZN6Serial4initEi
+                0x00001c78       0x26 Serial.o
+                0x00001c78                _ZN6Serial4initEi
+ .text._ZN6Serial7putCharEc
+                0x00001c9e        0x8 Serial.o
+                0x00001c9e                _ZN6Serial7putCharEc
+ .text._ZN6Serial15isSerialTxEmptyEv
+                0x00001ca6        0xa Serial.o
+                0x00001ca6                _ZN6Serial15isSerialTxEmptyEv
+ .text._ZN6Serial14isSerialRxFullEv
+                0x00001cb0        0xa Serial.o
+                0x00001cb0                _ZN6Serial14isSerialRxFullEv
+ .text._ZN11StationInfoC2Ev
+                0x00001cba        0xc StationInfo.o
+                0x00001cba                _ZN11StationInfoC2Ev
+                0x00001cba                _ZN11StationInfoC1Ev
+ .text._ZN11StationInfoD2Ev
+                0x00001cc6        0x2 StationInfo.o
+                0x00001cc6                _ZN11StationInfoD1Ev
+                0x00001cc6                _ZN11StationInfoD2Ev
+ .text._ZN11StationInfo12calculateCRCEv
+                0x00001cc8       0x1e StationInfo.o
+                0x00001cc8                _ZN11StationInfo12calculateCRCEv
+ .text._ZN11TransceiverC2Ev
+                0x00001ce6       0x26 Transceiver.o
+                0x00001ce6                _ZN11TransceiverC1Ev
+                0x00001ce6                _ZN11TransceiverC2Ev
+ .text._ZN11TransceiverD2Ev
+                0x00001d0c       0x18 Transceiver.o
+                0x00001d0c                _ZN11TransceiverD1Ev
+                0x00001d0c                _ZN11TransceiverD2Ev
+ .text._ZN11Transceiver7setModeE14TranceiverMode
+                0x00001d24        0x6 Transceiver.o
+                0x00001d24                _ZN11Transceiver7setModeE14TranceiverMode
+ .text._ZN11Transceiver11adfReadbackEc
+                0x00001d2a        0x6 Transceiver.o
+                0x00001d2a                _ZN11Transceiver11adfReadbackEc
+ .text._ZN11Transceiver10isReceiverEv
+                0x00001d30        0x6 Transceiver.o
+                0x00001d30                _ZN11Transceiver10isReceiverEv
+ .text._ZN11Transceiver10changeModeEv
+                0x00001d36       0x66 Transceiver.o
+                0x00001d36                _ZN11Transceiver10changeModeEv
+ .text._ZN11Transceiver11writePacketEPc
+                0x00001d9c       0x32 Transceiver.o
+                0x00001d9c                _ZN11Transceiver11writePacketEPc
+ .text._ZN11Transceiver17getFifoFullLengthEv
+                0x00001dce        0x6 Transceiver.o
+                0x00001dce                _ZN11Transceiver17getFifoFullLengthEv
+ .text._ZN11Transceiver18readReceivedPacketEPc
+                0x00001dd4        0xe Transceiver.o
+                0x00001dd4                _ZN11Transceiver18readReceivedPacketEPc
+ .text._ZN11Transceiver18isPreambleDetectedEv
+                0x00001de2        0x6 Transceiver.o
+                0x00001de2                _ZN11Transceiver18isPreambleDetectedEv
+ .text._ZN11Transceiver13calculateRSSIEj
+                0x00001de8        0x6 Transceiver.o
+                0x00001de8                _ZN11Transceiver13calculateRSSIEj
+ .text.__vector_2
+                0x00001dee       0x88 Transceiver.o
+                0x00001dee                __vector_2
+ .text.__vector_3
+                0x00001e76       0x4c Transceiver.o
+                0x00001e76                __vector_3
+ .text.__vector_7
+                0x00001ec2      0x102 Transceiver.o
+                0x00001ec2                __vector_7
+ .text.libgcc   0x00001fc4        0xc c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+                0x00001fc4                __tablejump2__
+                0x00001fc8                __tablejump__
+ .text.avr-libc
+                0x00001fd0       0x10 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+                0x00001fd0                __eerd_byte_m32a
+ .text.avr-libc
+                0x00001fe0       0x22 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+                0x00001fe0                __eeupd_byte_m32a
+                0x00001fe2                __eeupd_r18_m32a
+                0x00002002                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002002        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                0x00002002                _exit
+                0x00002002                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x00002002       0x16 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+                0x00002002                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002018        0x4 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000201c                _etext = .
+
+.data           0x00800060        0x6 load address 0x0000201c
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+ .data          0x00800060        0x0 ADF7020.o
+ .data          0x00800060        0x0 FIFO.o
+ .data          0x00800060        0x0 functions.o
+ .data          0x00800060        0x0 GlobalVariables.o
+ .data          0x00800060        0x0 main.o
+ .data          0x00800060        0x0 Message.o
+ .data          0x00800060        0x0 Packet.o
+ .data          0x00800060        0x0 Serial.o
+ .data          0x00800060        0x0 StationInfo.o
+ .data          0x00800060        0x0 Transceiver.o
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_ctors.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_dtors.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_tablejump.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+ .data          0x00800060        0x0 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800060        0x5 functions.o
+ *(.gnu.linkonce.d*)
+                0x00800066                . = ALIGN (0x2)
+ *fill*         0x00800065        0x1 
+                0x00800066                _edata = .
+                0x00800066                PROVIDE (__data_end, .)
+
+.bss            0x00800066      0x375
+                0x00800066                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.ADF_Regs  0x00800066       0xf1 ADF7020.o
+                0x00800066                ADF_Regs
+ .bss.packetData
+                0x00800157       0x43 functions.o
+                0x00800157                packetData
+ .bss._ZZ26processSerialReceivedBytesvE7counter
+                0x0080019a        0x2 functions.o
+ .bss._ZZ26processSerialReceivedBytesvE12receivedData
+                0x0080019c       0x40 functions.o
+ .bss.intrruptFlag
+                0x008001dc        0x1 GlobalVariables.o
+                0x008001dc                intrruptFlag
+ .bss.stationInfo
+                0x008001dd       0x3e GlobalVariables.o
+                0x008001dd                stationInfo
+ .bss.serialRxDataBuffer
+                0x0080021b       0x75 GlobalVariables.o
+                0x0080021b                serialRxDataBuffer
+ .bss.serialTxDataBuffer
+                0x00800290       0x75 GlobalVariables.o
+                0x00800290                serialTxDataBuffer
+ .bss.transceiver
+                0x00800305       0x88 GlobalVariables.o
+                0x00800305                transceiver
+ .bss.packetProcessor
+                0x0080038d        0x8 GlobalVariables.o
+                0x0080038d                packetProcessor
+ .bss.serial    0x00800395        0x3 GlobalVariables.o
+                0x00800395                serial
+ .bss.receivedPacket
+                0x00800398       0x43 main.o
+                0x00800398                receivedPacket
+ *(COMMON)
+                0x008003db                PROVIDE (__bss_end, .)
+                0x0000201c                __data_load_start = LOADADDR (.data)
+                0x00002022                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008003db        0x0
+                0x008003db                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008003db                PROVIDE (__noinit_end, .)
+                0x008003db                _end = .
+                0x008003db                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x2
+ *(.eeprom*)
+ .eeprom        0x00810000        0x2 functions.o
+                0x00810000                baseStationMACAddress
+                0x00810001                baseStationNumber
+                0x00810002                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x864
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+ .stab          0x000006cc       0x90 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32a.o)
+                                 0x9c (size before relaxing)
+ .stab          0x0000075c      0x108 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eeupd_byte_atmega32a.o)
+                                0x114 (size before relaxing)
+
+.stabstr        0x00000000      0x182
+ *(.stabstr)
+ .stabstr       0x00000000      0x182 c:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32a.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f ADF7020.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 FIFO.o
+ .comment       0x00000000       0x30 functions.o
+ .comment       0x00000000       0x30 GlobalVariables.o
+ .comment       0x00000000       0x30 main.o
+ .comment       0x00000000       0x30 Message.o
+ .comment       0x00000000       0x30 Packet.o
+ .comment       0x00000000       0x30 Serial.o
+ .comment       0x00000000       0x30 StationInfo.o
+ .comment       0x00000000       0x30 Transceiver.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xc0 ADF7020.o
+ .debug_aranges
+                0x000000c0       0x60 FIFO.o
+ .debug_aranges
+                0x00000120       0x80 functions.o
+ .debug_aranges
+                0x000001a0       0x30 GlobalVariables.o
+ .debug_aranges
+                0x000001d0       0x20 main.o
+ .debug_aranges
+                0x000001f0       0x28 Message.o
+ .debug_aranges
+                0x00000218       0x48 Packet.o
+ .debug_aranges
+                0x00000260       0x58 Serial.o
+ .debug_aranges
+                0x000002b8       0x30 StationInfo.o
+ .debug_aranges
+                0x000002e8       0xc0 Transceiver.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x9dbc
+ *(.debug_info)
+ .debug_info    0x00000000     0x2858 ADF7020.o
+ .debug_info    0x00002858      0x687 FIFO.o
+ .debug_info    0x00002edf     0x186e functions.o
+ .debug_info    0x0000474d     0x1242 GlobalVariables.o
+ .debug_info    0x0000598f     0x152a main.o
+ .debug_info    0x00006eb9      0x50e Message.o
+ .debug_info    0x000073c7      0x7bf Packet.o
+ .debug_info    0x00007b86      0x520 Serial.o
+ .debug_info    0x000080a6      0x3b1 StationInfo.o
+ .debug_info    0x00008457     0x1965 Transceiver.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1b9a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x469 ADF7020.o
+ .debug_abbrev  0x00000469      0x24d FIFO.o
+ .debug_abbrev  0x000006b6      0x3ee functions.o
+ .debug_abbrev  0x00000aa4      0x249 GlobalVariables.o
+ .debug_abbrev  0x00000ced      0x316 main.o
+ .debug_abbrev  0x00001003      0x211 Message.o
+ .debug_abbrev  0x00001214      0x275 Packet.o
+ .debug_abbrev  0x00001489      0x1c3 Serial.o
+ .debug_abbrev  0x0000164c      0x17f StationInfo.o
+ .debug_abbrev  0x000017cb      0x3cf Transceiver.o
+
+.debug_line     0x00000000     0x1b1e
+ *(.debug_line)
+ .debug_line    0x00000000      0x98b ADF7020.o
+ .debug_line    0x0000098b      0x14a FIFO.o
+ .debug_line    0x00000ad5      0x4ee functions.o
+ .debug_line    0x00000fc3      0x150 GlobalVariables.o
+ .debug_line    0x00001113      0x255 main.o
+ .debug_line    0x00001368       0xa2 Message.o
+ .debug_line    0x0000140a      0x1e0 Packet.o
+ .debug_line    0x000015ea       0xf6 Serial.o
+ .debug_line    0x000016e0      0x111 StationInfo.o
+ .debug_line    0x000017f1      0x32d Transceiver.o
+
+.debug_frame    0x00000000      0x978
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1d8 ADF7020.o
+ .debug_frame   0x000001d8      0x140 FIFO.o
+ .debug_frame   0x00000318      0x15c functions.o
+ .debug_frame   0x00000474       0x44 GlobalVariables.o
+ .debug_frame   0x000004b8       0x34 main.o
+ .debug_frame   0x000004ec       0x4c Message.o
+ .debug_frame   0x00000538       0xa4 Packet.o
+ .debug_frame   0x000005dc       0x94 Serial.o
+ .debug_frame   0x00000670       0x44 StationInfo.o
+ .debug_frame   0x000006b4      0x2c4 Transceiver.o
+
+.debug_str      0x00000000     0x20b9
+ *(.debug_str)
+ .debug_str     0x00000000     0x1102 ADF7020.o
+                               0x1166 (size before relaxing)
+ .debug_str     0x00001102      0x1e4 FIFO.o
+                                0x2d2 (size before relaxing)
+ .debug_str     0x000012e6      0x85c functions.o
+                               0x1115 (size before relaxing)
+ .debug_str     0x00001b42      0x2d2 GlobalVariables.o
+                               0x10d8 (size before relaxing)
+ .debug_str     0x00001e14       0x42 main.o
+                               0x12cf (size before relaxing)
+ .debug_str     0x00001e56      0x10f Message.o
+                                0x447 (size before relaxing)
+ .debug_str     0x00001f65       0x7d Packet.o
+                                0x439 (size before relaxing)
+ .debug_str     0x00001fe2       0x19 Serial.o
+                                0x335 (size before relaxing)
+ .debug_str     0x00001ffb       0x3f StationInfo.o
+                                0x2d4 (size before relaxing)
+ .debug_str     0x0000203a       0x7f Transceiver.o
+                               0x1022 (size before relaxing)
+
+.debug_loc      0x00000000     0x389e
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1574 ADF7020.o
+ .debug_loc     0x00001574      0x723 FIFO.o
+ .debug_loc     0x00001c97      0x6e3 functions.o
+ .debug_loc     0x0000237a      0x114 main.o
+ .debug_loc     0x0000248e      0x1eb Message.o
+ .debug_loc     0x00002679      0x4e9 Packet.o
+ .debug_loc     0x00002b62      0x15f Serial.o
+ .debug_loc     0x00002cc1       0x60 StationInfo.o
+ .debug_loc     0x00002d21      0xb7d Transceiver.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x960
+ *(.debug_ranges)
+ .debug_ranges  0x00000000      0x338 ADF7020.o
+ .debug_ranges  0x00000338      0x140 FIFO.o
+ .debug_ranges  0x00000478      0x1d8 functions.o
+ .debug_ranges  0x00000650       0x20 GlobalVariables.o
+ .debug_ranges  0x00000670       0x90 main.o
+ .debug_ranges  0x00000700       0x18 Message.o
+ .debug_ranges  0x00000718       0x60 Packet.o
+ .debug_ranges  0x00000778       0x60 Serial.o
+ .debug_ranges  0x000007d8       0x20 StationInfo.o
+ .debug_ranges  0x000007f8      0x168 Transceiver.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(BaseStationCenter.elf elf32-avr)
+LOAD linker stubs
